@@ -11,7 +11,7 @@ pipeline {
 
         stage('stage3') {
           steps {
-            emailext(subject: 'rewr', body: 'werer', attachmentsPattern: 'erwr', attachLog: true, to: 'millan.jena0107@gmail.com')
+            emailext(subject: 'rewr', body: 'werer', attachmentsPattern: 'erwr', attachLog: true, to: 'millan.jena0107@gmail.com', from: 'smtp.gmail.com')
           }
         }
 
